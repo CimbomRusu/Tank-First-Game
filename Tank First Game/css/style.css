@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#clean{
+    position: relative;
+    height: 94vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.tank{
+    background-image: url("../images/tank.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+#warrior{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 650px;
+    background-image: url("../images/blue_tank.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bullet{
+    width: 1px;
+    height: 1px;
+    border:1px solid orangered;
+    background-color: orangered;
+    position: fixed;
+}
+#demo{
+    width: 60px;
+    height: 20px;
+    position: fixed;
+    background-color: white;
+}
